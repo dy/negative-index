@@ -1,5 +1,6 @@
 /** @module negative-index */
-module.exports = function negIdx (idx, length) {
+var isNeg = require('is-negative-zero');
 
-	return idx <= -length ? 0 : idx < 0 ? (length + (idx % length)) : Math.min(length, idx);
+module.exports = function negIdx (idx, length) {
+	return isNeg(idx) ? length : idx <= -length ? 0 : idx < 0 ? (length + (idx % length)) : Math.min(length, idx);
 }

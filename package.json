@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/dfcreative/negative-index/issues"
   },
-  "homepage": "https://github.com/dfcreative/negative-index#readme"
+  "homepage": "https://github.com/dfcreative/negative-index#readme",
+  "dependencies": {
+    "is-negative-zero": "^2.0.0"
+  }
 }
