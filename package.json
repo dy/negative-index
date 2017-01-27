@@ -1,6 +1,6 @@
 {
   "name": "negative-index",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert negative index to positive starting from the end",
   "main": "index.js",
   "scripts": {
