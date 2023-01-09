@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Convert negative index to positive starting from the end",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node test"
   },
@@ -24,8 +25,5 @@
   "bugs": {
     "url": "https://github.com/dfcreative/negative-index/issues"
   },
-  "homepage": "https://github.com/dfcreative/negative-index#readme",
-  "dependencies": {
-    "is-negative-zero": "^2.0.0"
-  }
+  "homepage": "https://github.com/dfcreative/negative-index#readme"
 }
